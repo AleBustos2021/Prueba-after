@@ -1,0 +1,33 @@
+div[class*="box-"]{
+    width: 100%;
+    height: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-template-areas: 
+          'a a b'
+          'a a c'
+          'd d e';
+    grid-template-columns: auto auto auto; 
+    height: 98vh;
+  }
+  .box-1{
+  grid-area: a;
+    background-color:red;
+  }
+  .box-2{
+  grid-area: b;
+    background-color:green;
+  }
+  .box-3{
+  grid-area: c;
+    background-color:blue;
+  }
+  .box-4{
+  grid-area: d;
+    background-color:yellow;
+  }
+  .box-5{
+  grid-area: e;
+    background-color:violet;
+  }
